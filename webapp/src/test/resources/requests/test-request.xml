@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestRequest attribute="iceland">iceland rocks!</TestRequest>
+<DemoRequest one="iceland">
+    <two>52</two>
+</DemoRequest>

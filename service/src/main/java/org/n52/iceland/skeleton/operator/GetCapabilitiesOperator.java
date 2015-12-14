@@ -14,6 +14,7 @@ import org.n52.iceland.request.GetCapabilitiesRequest;
 import org.n52.iceland.request.operator.RequestOperator;
 import org.n52.iceland.request.operator.RequestOperatorKey;
 import org.n52.iceland.response.AbstractServiceResponse;
+import org.n52.iceland.skeleton.SkeletonConstants;
 import org.n52.iceland.skeleton.handler.GetCapabilitiesHandler;
 
 /**
@@ -22,8 +23,8 @@ import org.n52.iceland.skeleton.handler.GetCapabilitiesHandler;
 public class GetCapabilitiesOperator implements RequestOperator {
 
     private static final RequestOperatorKey KEY
-            = new RequestOperatorKey("TEST",
-                                     "0.0.1",
+            = new RequestOperatorKey(SkeletonConstants.SERVICE,
+                                     SkeletonConstants.VERSION,
                                      OWSConstants.Operations.GetCapabilities);
 
     private OperationHandlerRepository operationHandlerRepository;
