@@ -32,6 +32,10 @@ public class DemoResponse extends AbstractServiceResponse {
         this.three = three;
     }
 
+    public Collection<String> getThree() {
+        return this.three;
+    }
+
     @Override
     public String getOperationName() {
         return SkeletonConstants.OPERATION_DEMO;
