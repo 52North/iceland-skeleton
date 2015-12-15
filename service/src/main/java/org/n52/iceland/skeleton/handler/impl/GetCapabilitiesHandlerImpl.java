@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.n52.iceland.skeleton.handler;
+package org.n52.iceland.skeleton.handler.impl;
 
 import com.google.common.collect.Sets;
 import java.net.URI;
@@ -47,6 +47,7 @@ import org.n52.iceland.response.GetCapabilitiesResponse;
 import org.n52.iceland.service.ServiceSettings;
 import org.n52.iceland.skeleton.SkeletonCapabilities;
 import org.n52.iceland.skeleton.SkeletonConstants;
+import org.n52.iceland.skeleton.handler.GetCapabilitiesHandler;
 import org.n52.iceland.util.collections.MultiMaps;
 import org.n52.iceland.util.collections.SetMultiMap;
 import org.n52.iceland.util.http.HTTPHeaders;

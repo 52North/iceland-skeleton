@@ -34,6 +34,8 @@ import org.slf4j.LoggerFactory;
 /**
  * The operator mapps an incoming request to the handler.
  *
+ * The operator and handler layers allow to separate parameter validation in different operators, but then internally use the same handlers.
+ *
  * @author <a href="mailto:d.nuest@52north.org">Daniel Nüst</a>
  */
 public class DemoOperator implements RequestOperator {
