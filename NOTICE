@@ -39,6 +39,7 @@ This project includes:
   jackson-databind under The Apache Software License, Version 2.0
   Java Property Utility under The Apache Software License, Version 2.0
   javax.inject under The Apache Software License, Version 2.0
+  JCL 1.1.1 implemented over SLF4J under MIT License
   Joda-Time under Apache 2
   JUnit under Eclipse Public License 1.0
   PJL Compressing Filter under Apache Software License V2.0
